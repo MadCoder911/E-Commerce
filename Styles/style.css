@@ -7,6 +7,7 @@
 
 :root {
   --main-color: #ffffff;
+  --dark-black: #2f2f33;
   --secondary-color: #2fc2e2;
   --light-gray: #b0b0bb;
   --main-transition: 0.3s;
@@ -62,8 +63,54 @@ ul {
 
 /* End Global Rules */
 /* Start Landing Section */
+/* child static top section */
 .landing {
 }
+.landing .top-section {
+  color: white;
+  background-color: var(--dark-black);
+}
+.landing .top-section .container {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  align-items: center;
+}
+.landing .top-section .left,
+.landing .top-section .right {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.landing .top-section .left .child,
+.landing .top-section .right .child {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+.landing .top-section .right .child::after {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  right: 0;
+  color: white;
+}
+.landing .top-section .right div:nth-child(1) p,
+.landing .top-section .right div:nth-child(3) p {
+  margin-right: 10px;
+}
+.landing .top-section .child p {
+  margin-left: 10px;
+}
+.landing .top-section .child:hover .fa {
+  color: var(--secondary-color);
+}
+
 /* End Landing Section */
 /* Start products section */
 .products {
