@@ -7,7 +7,7 @@
 
 :root {
   --main-color: #ffffff;
-  --dark-black: #2f2f33;
+  --black: #2f2f33;
   --secondary-color: #2fc2e2;
   --light-gray: #b0b0bb;
   --main-transition: 0.3s;
@@ -68,7 +68,7 @@ ul {
 }
 .landing .top-section {
   color: white;
-  background-color: var(--dark-black);
+  background-color: var(--black);
 }
 .landing .top-section .container {
   height: 50px;
