@@ -93,6 +93,7 @@ ul {
 /* child static top section */
 .landing {
   height: 100vh;
+  margin-bottom: var(--main-padding-bottom);
 }
 .landing .top-section {
   color: white;
