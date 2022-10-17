@@ -171,24 +171,43 @@ ul {
 }
 .landing .promotion-banner .container .search {
   display: flex;
-}
-.landing .promotion-banner .container .search .dropdown {
-  background-color: #f7f8fc;
-  padding: 13px 29px 13px 13px;
   position: relative;
-  border-radius: 5px 0px 0px 5px;
+}
+
+.landing .promotion-banner .container .search .select select {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 14px 6px;
+  padding-right: 28px;
+  background-color: #f7f8fc;
+  color: var(--light-gray);
+  width: 150px;
   cursor: pointer;
   border: 1px solid #e5e6ec;
   border-right: none;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 13px;
+  outline: none;
+  appearance: none;
 }
-.landing .promotion-banner .container .search .dropdown i {
-  margin-left: 8px;
+.landing .promotion-banner .container .search .select {
+  position: relative;
+}
+.landing .promotion-banner .container .search .select::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
   position: absolute;
-  top: 35%;
-  cursor: pointer;
-  border-width: 0px 1px 1px 0px;
-  border-color: #8e8e95;
+  width: 10px;
+  height: 10px;
+  font-size: 13px;
+  top: 30%;
+  right: 13px;
+  color: var(--light-gray);
+  z-index: 100;
 }
+
 .landing .promotion-banner .container .search input {
   width: 300px;
   text-align: left;
