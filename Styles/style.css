@@ -299,6 +299,9 @@ ul {
   align-items: center;
   font-size: 14px;
 }
+.landing .promotion-banner .container .info p {
+  padding-left: 10px;
+}
 @media (max-width: 768px) {
   .landing .promotion-banner .container .info {
     font-size: 10px;
@@ -316,7 +319,6 @@ ul {
 @media (max-width: 768px) {
   .landing .promotion-banner .container .info i {
     font-size: 16px;
-    padding-right: 10px;
   }
 }
 .landing .promotion-banner .container .info .lightgray {
