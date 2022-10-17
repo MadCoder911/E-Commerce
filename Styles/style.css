@@ -160,7 +160,7 @@ ul {
 }
 .landing .promotion-banner img {
   height: 70px;
-  margin-right: 150px;
+  margin-right: 45px;
 }
 .landing .promotion-banner .container .searchBox {
   border: 1px solid var(--black);
@@ -174,7 +174,7 @@ ul {
 }
 .landing .promotion-banner .container .search .dropdown {
   background-color: #f7f8fc;
-  padding: 13px 35px;
+  padding: 13px 29px 13px 13px;
   position: relative;
   border-radius: 5px 0px 0px 5px;
   cursor: pointer;
@@ -182,8 +182,7 @@ ul {
   border-right: none;
 }
 .landing .promotion-banner .container .search .dropdown i {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 8px;
   position: absolute;
   top: 35%;
   cursor: pointer;
@@ -251,6 +250,10 @@ ul {
   bottom: 0;
   position: absolute;
 }
+.landing .divider .categories i {
+  cursor: pointer;
+}
+
 .landing .divider .categories p {
   margin: 0;
   margin-right: 35px;
@@ -279,9 +282,10 @@ ul {
 }
 .landing .slider-products .container {
   display: flex;
+  overflow: hidden;
 }
 .landing .slider-products .slider {
-  padding: 10px 24px;
+  width: 260px;
   font-size: 13.5px;
   border: 1px solid #e5e6ec;
   border-top: none;
@@ -289,11 +293,20 @@ ul {
   color: #76767e;
   border-radius: 0px 0px 5px 5px;
   background-color: white;
+  transition: transform 0.5s ease-in-out;
+}
+.hidden {
+  transform: translateY(-500px);
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
 }
 .landing .slider-products .slider li {
   padding: 11px 10px;
   position: relative;
   cursor: pointer;
+}
+.landing .slider-products .slider li:hover {
+  color: var(--secondary-color);
 }
 .landing .slider-products .slider li:not(:last-child) {
   border-bottom: 1px solid #e5e6ec;
@@ -303,7 +316,7 @@ ul {
 }
 .landing .slider-products .slider i:last-child {
   position: absolute;
-  right: -8px;
+  right: 14px;
   top: 35%;
   border-color: #76767e;
   border-width: 0px 1px 1px 0px;
