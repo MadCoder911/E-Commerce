@@ -254,10 +254,12 @@ ul {
   padding-left: 10px;
   border-top: 1px solid #e5e6ec;
   border-bottom: 1px solid #e5e6ec;
+  border-right: none;
+  border-left: none;
 }
 @media (max-width: 768px) {
   .landing .promotion-banner .container .search input {
-    width: 170px;
+    width: 90px;
     font-size: 10px;
   }
 }
@@ -310,7 +312,6 @@ ul {
   color: #48484c;
   font-size: 20px;
   cursor: pointer;
-  padding-right: 10px;
 }
 @media (max-width: 768px) {
   .landing .promotion-banner .container .info i {
@@ -356,6 +357,7 @@ ul {
   }
   .landing .divider .categories i {
     position: absolute;
+    font-size: 18px;
     top: -60px;
     left: 10px;
   }
@@ -385,7 +387,7 @@ ul {
   }
 }
 .landing .divider .categories-items p {
-  margin-right: 16px;
+  margin-right: 14px;
   color: #76767e;
   cursor: pointer;
 }
