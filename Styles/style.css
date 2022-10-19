@@ -636,6 +636,8 @@ ul {
   padding-bottom: 50px;
   margin-bottom: var(--main-padding-bottom);
   overflow: hidden;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 @media screen and (max-width: 1228px) {
