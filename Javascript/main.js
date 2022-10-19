@@ -12,7 +12,7 @@ let screenWidth = window.innerWidth;
 if (screenWidth < 500) {
   menu.classList.add("hidden");
   productView.style.backgroundImage =
-    "url(https://i.ibb.co/BcYr351/landing-Mobile-View.png)";
+    "url(https://i.ibb.co/ScRBn9k/mobileview.png)";
 }
 console.log(screenWidth);
 console.log(productView);
