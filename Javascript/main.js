@@ -6,3 +6,10 @@ MenuIcon.addEventListener("click", function (e) {
   e.preventDefault();
   menu.classList.toggle("hidden");
 });
+
+let screenWidth = window.innerWidth;
+if (screenWidth < 500) {
+  menu.classList.add("hidden");
+}
+
+console.log(screenWidth);
