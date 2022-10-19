@@ -632,8 +632,9 @@ ul {
   grid-gap: 20px;
   justify-content: center;
   align-items: center;
-  margin-top: var(--main-padding-top);
+  padding-top: 50px;
   margin-bottom: var(--main-padding-bottom);
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1228px) {
@@ -652,7 +653,9 @@ ul {
 @media screen and (max-width: 640px) {
   .product-card-container {
     grid-template-columns: repeat(2, 210px);
-    grid-gap: 30px;
+  }
+  .add-to-cart-btn{
+    height: 50px;
   }
 }
 
@@ -789,13 +792,14 @@ ul {
   height: 30px;
   background: var(--light-gray);
   color: var(--main-color);
-  /* font-size: 14px; */
+  font-size: 14px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: var(--main-transition) ease-in-out;
   text-align: center;
   margin-bottom: 5px;
+  padding: 5px;
 }
 
 .add-to-cart-btn:hover {
