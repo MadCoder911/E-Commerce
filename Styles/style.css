@@ -270,6 +270,7 @@ ul {
   .landing .promotion-banner .container .search input {
     width: 190px;
     font-size: 14px;
+    border: 1px solid #e5e6ec;
   }
 }
 .landing .promotion-banner .container .search input::placeholder {
