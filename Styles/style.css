@@ -478,7 +478,8 @@ ul {
   margin-top: 15px;
   padding: 20px 20px;
   color: var(--black);
-  background-image: url(https://i.ibb.co/FzYpmP1/landingimage.png);
+  background-image: url(https://i.ibb.co/R2N3NQ6/landingimage.png);
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
@@ -674,7 +675,7 @@ ul {
   .product-card-container {
     grid-template-columns: repeat(2, 210px);
   }
-  .add-to-cart-btn{
+  .add-to-cart-btn {
     height: 50px;
   }
 }
