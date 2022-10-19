@@ -400,7 +400,7 @@ ul {
 .landing .slider-products {
   position: relative;
   height: calc(100vh - (56px + 130px + 50px));
-  background-image: url(../Assets/Landing\ section\ background.png);
+  background-image: url(https://i.ibb.co/PTqVpF8/Landing-section-background.png);
 }
 
 .landing .slider-products .container {
@@ -466,7 +466,7 @@ ul {
   margin-top: 15px;
   padding: 20px 20px;
   color: var(--black);
-  background-image: url(../Assets/landingimage.png);
+  background-image: url(https://i.ibb.co/FzYpmP1/landingimage.png);
 }
 
 .landing .slider-products .product-view p:first-child {
