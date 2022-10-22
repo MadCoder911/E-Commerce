@@ -14,5 +14,3 @@ if (screenWidth < 500) {
   productView.style.backgroundImage =
     "url(https://i.ibb.co/ScRBn9k/mobileview.png)";
 }
-console.log(screenWidth);
-console.log(productView);

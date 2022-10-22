@@ -182,11 +182,11 @@ ul {
 }
 @media (max-width: 768px) {
   .landing .promotion-banner img {
-    height: 25px;
+    height: 30px;
     margin-right: 10px;
     position: absolute;
-    top: 70px;
-    left: 20px;
+    top: 60px;
+    left: 10px;
   }
 }
 .landing .promotion-banner .container .searchBox {
@@ -225,7 +225,7 @@ ul {
 }
 @media (max-width: 768px) {
   .landing .promotion-banner .container .search .select select {
-    width: 70px;
+    width: 30px;
     padding: 5px 12px;
     padding-left: 2px;
     font-size: 10px;
@@ -268,7 +268,7 @@ ul {
 }
 @media (max-width: 768px) {
   .landing .promotion-banner .container .search input {
-    width: 190px;
+    width: 175px;
     font-size: 14px;
     border: 1px solid #e5e6ec;
     border-radius: 3px;
@@ -289,7 +289,7 @@ ul {
 }
 @media (max-width: 768px) {
   .landing .promotion-banner .container .search .searchBtn {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 10px;
     padding: 3px 7px;
     border-radius: 3px;
