@@ -490,6 +490,7 @@ ul {
   .landing .slider-products .product-view {
     margin: 15px;
     margin-top: 80px;
+    height: 430px;
   }
 }
 .landing .slider-products .product-view p:first-child {
