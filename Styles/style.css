@@ -848,5 +848,73 @@ ul {
 /* End products section */
 /* Start our history section */
 .history {
+  position: relative;
+  display: flex;
+  max-height: 800px;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.history .container {
+  background-color: #f4f8f9;
+  color: var(--black);
+  padding: 40px 70px;
+  background-image: url(../Assets/Landing\ section\ background.png);
+}
+.history .container .content p:first-of-type {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+.history .container .content h1 {
+  font-weight: 600;
+}
+.history .container .content p:nth-child(3) {
+  color: var(--light-gray);
+  padding: 20px 0px;
+}
+.history .container .labels {
+  position: relative;
+}
+.history .container .labels::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: var(--light-gray);
+  top: 0;
+  left: 20%;
+}
+.history .container .labels .label {
+  display: flex;
+  margin-top: 25px;
+  position: relative;
+}
+.history .container .labels .label .fa-circle {
+  position: absolute;
+  left: 18.8%;
+  top: 0px;
+  font-size: 18px;
+  color: var(--secondary-color);
+  border-radius: 50%;
+}
+.history .container .labels .label .content h1 {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.history .container .labels .label .content p {
+  color: var(--light-gray);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+}
+.history .container .labels .label img {
+  max-width: 100px;
+  border-radius: 50%;
+  clip-path: circle();
+  margin-right: 90px;
+}
+.history img {
+  max-height: 900px;
 }
 /* End our history section */
